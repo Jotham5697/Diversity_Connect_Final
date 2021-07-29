@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/static/style.css" type="text/css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Chat</title>
+</head>
+
+
+<body>
+    <div class="container overflow-hidden">
+        <div class="row gy-4">
+            <div class="col-12">
+                <div class="p-3 trans">
+                    <nav id=nav class="navbar navbar-expand-lg navbar-dark trans navbar-nav">
+                        <div class="container-fluid">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="index">
+                                    <img src="/static/images/final_logo.png" alt="" width="40" height="34"
+                                        class="d-inline-block align-text-top">
+                                    <text class="orange">Diversity Connect</text>
+
+                                </a>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active orange" aria-current="page" href="index">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active orange" href="podcasts">Podcasts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link orange" href="chat">Chat</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Start of Community Guidelines -->
+            <div class="col-12">
+                <div class="p-2 trans white">
+                    <h4 class="orange title2">Welcome to Diversity Connect's Chat Area</h4>
+                    <p calss="text">These Chat Area’s provide a safe space for students of color to talk about their experiences in
+                        their predominantly white institutions (PWI). Here you can talk about disrcimination you faced
+                        or saw in your schools, give advice to other students of color, and share anything else you
+                        think relates. Feel free to share any experience you feel comfortable enough sharing. If you are
+                        sharing someone else's story make sure that you get permission directly from them before
+                        sharing. Note: you have the ability to chat anonymously and with that comes a lot of
+                        responsibility please make sure to follow the rules located directly below this. </p>
+                    <h5>Please add your email in the email section when making your comments.
+                        Your email will NOT be displayed or released it is simply for our records so that we can keep
+                        track of our users and offer prizes in the future.</h5>
+                    <br>
+                    <!-- Start of Rules and Regulations -->
+                    <h4 class="orange text2">Rules and Regulations</h4>
+                    <ol class="text">
+                        <li>ABSOLUTELY NO RACISM, SEXISM, HOMOPHOBIA OR ANY OTHER FORM OF DISCRIMINATION IS ALLOWED.
+                        </li>
+                        <ul> The Moderators will delete any message that they deem too offensive or discriminatory.
+                        </ul>
+                        <li>You are not allowed to use your peers' names in the chat if they are under 18 even with
+                            explicit permission. </li>
+                        <ul>The use of names for people above the age of 18 is allowed. </ul>
+                        <li>Please be sure you proofread your posts before posting because you will be unable to edit
+                            them once they are posted. </li>
+                        <li>And most importantly remember that this is a safe space so please feel free to share. Our
+                            goal is to build a community where these topics aren’t taboo but rather a conversation that
+                            will lead to change. </li>
+                    </ol>
+
+                </div>
+
+            </div>
+            <!-- End of Community Guidelines -->
+
+
+            <!-- This is where you will insert the code for the chat forum, -->
+            <div class="col-12">
+                <div class="p-1 ">
+                    <!-- Cusromization for Chat -->
+                    <script>
+                        hcb_user = {
+                            comments_header: 'Chat',
+                            content_label: 'Enter your post here',
+                            submit: 'Post',
+                            add: 'Add your post',
+                            again: 'Make another post.',
+                            msg_thankyou: 'Thank you for posting!',
+                            rr_denied: 'Your post was not accepted.',
+                            err_unknown: 'Your post was blocked for unknown reasons, please report this.',
+                            err_spam: 'Your post was detected as spam.',
+                            err_blocked: 'Your post was blocked by site policy.',
+                        }
+                    </script>
+
+                    <!-- begin wwww.htmlcommentbox.com -->
+                    <div id="HCB_comment_box" class="orange"><a href="http://www.htmlcommentbox.com">Widget</a> is loading posts...
+                    </div>
+                    <link rel="stylesheet" type="text/css" class="white"
+                        href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+                    <script type="text/javascript"
+                        id="hcb"> /*<!--*/ if (!window.hcb_user) { hcb_user = {}; } (function () { var s = document.createElement("script"), l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"), h = "https://www.htmlcommentbox.com"; s.setAttribute("type", "text/javascript"); s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24hXtTGgVau4uJQO3tMRp341" + "&opts=17310&num=10&ts=1627492824252"); if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s); })(); /*-->*/ </script>
+                    <!-- end www.htmlcommentbox.com -->
+                </div>
+            </div>
+
+            <!-- This is an extre column Copy and paste this  -->
+            <!-- <div class="col-6">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div> -->
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
