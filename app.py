@@ -15,3 +15,7 @@ def podcasts():
 @app.route("/chat")
 def chat():
     return render_template("/chat.html")
+
+@app.route("/resources")
+def resources():
+    return render_template("/resources.html")
